@@ -1,0 +1,27 @@
+{
+    "name": "dotnet-list-reference-deep",
+    "version": "0.1.0",
+    "description": "Retrieve a list of all the references in a .NET project using the dotnet list reference command",
+    "author": "Giedrius Grabauskas (https://github.com/Grabauskas)",
+    "main": "dist/index.js",
+    "bin": {
+        "dotnet-list-refs": "dist/cli.js"
+    },
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "npm run clean && tsc -p .",
+        "prettier": "prettier --write . --ignore-unknown",
+        "test": "prettier . --check & tsc -p ."
+    },
+    "keywords": [],
+    "license": "MIT",
+    "engines": {
+        "node": ">=16"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.7",
+        "prettier": "^3.2.5",
+        "rimraf": "^5.0.5",
+        "typescript": "^5.4.5"
+    }
+}
