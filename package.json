@@ -1,5 +1,5 @@
 {
-    "name": "dotnet-list-reference-deep",
+    "name": "dotnet-list-refs",
     "version": "0.1.0",
     "description": "Retrieve a list of all the references in a .NET project using the dotnet list reference command",
     "author": "Giedrius Grabauskas (https://github.com/Grabauskas)",
